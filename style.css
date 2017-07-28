@@ -1,0 +1,53 @@
+header{
+	background: blue;
+}
+h1{
+	font-size: 36px;
+	margin: 0;
+	padding: 50px;
+}
+
+body,html{
+	margin: 0;
+	height: 100%;
+}
+section{
+	padding: 50px;
+	min-height:100%;
+}
+p{
+	font-size: 16px;
+	line-height: 18px;
+}
+.page-wrapper{
+    min-height: 100%;
+}
+
+footer{
+	background:red;
+	font-size: 36px;
+	margin: 0;
+	padding: 50px;
+	position: fixed;
+    bottom: 0;
+	left: 0;
+    float: left;
+    width: 100%;
+	z-index: 20;
+}
+/*For Fixed height footer*/
+/*.wrap{
+min-height:142px;
+}
+footer{
+	background:red;
+	font-size: 36px;
+	margin: 0;
+	padding: 50px;
+	position: fixed;
+    bottom: 0;
+	left: 0;
+    float: left;
+    width: 100%;
+	z-index: 20;
+}*/
